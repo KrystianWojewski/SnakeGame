@@ -134,7 +134,7 @@ public class ControllPanel extends JFrame {
                 Scanner scanner = null;
                 String[] tab = new String[10];
                 try {
-                    scanner = new Scanner(new File("C:\\Users\\PeadC\\Desktop\\PJATK\\Semestr 2\\POJ\\Snake\\src\\pl\\edu\\pjwstk\\SnakeScoreBoard.txt"));
+                    scanner = new Scanner(new File("SnakeScoreBoard.txt"));
                 } catch (FileNotFoundException ex) {
                     ex.printStackTrace();
                 }

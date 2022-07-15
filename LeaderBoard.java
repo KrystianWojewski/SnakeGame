@@ -22,7 +22,7 @@ public class LeaderBoard extends JFrame {
         save.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                File scoreFile = new File("C:\\Users\\PeadC\\Desktop\\PJATK\\Semestr 2\\POJ\\Snake\\src\\pl\\edu\\pjwstk\\SnakeScoreBoard.txt");
+                File scoreFile = new File("SnakeScoreBoard.txt");
                 if (!scoreFile.exists()){
                     try{
                         scoreFile.createNewFile();

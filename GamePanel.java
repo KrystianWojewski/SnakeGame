@@ -142,7 +142,7 @@ public class GamePanel extends JPanel implements ActionListener{
         if ((x[0] == appleX) && (y[0] == appleY)) {
             AudioInputStream audioInputStream = null;
             try {
-                audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\PeadC\\Desktop\\PJATK\\Semestr 2\\POJ\\Snake\\src\\pl\\edu\\pjwstk\\Jedzenie jabłka2.WAV").getAbsoluteFile());
+                audioInputStream = AudioSystem.getAudioInputStream(new File("Jedzenie jabłka2.wav").getAbsoluteFile());
                 Clip clip = AudioSystem.getClip();
                 clip.open(audioInputStream);
                 clip.start();
@@ -160,7 +160,7 @@ public class GamePanel extends JPanel implements ActionListener{
         if ((x[0] == appleGoldX) && (y[0] == appleGoldY)) {
             AudioInputStream audioInputStream = null;
             try {
-                audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\PeadC\\Desktop\\PJATK\\Semestr 2\\POJ\\Snake\\src\\pl\\edu\\pjwstk\\Jabłko Gold.WAV").getAbsoluteFile());
+                audioInputStream = AudioSystem.getAudioInputStream(new File("Jabłko Gold.wav").getAbsoluteFile());
                 Clip clip = AudioSystem.getClip();
                 clip.open(audioInputStream);
                 clip.start();
@@ -179,7 +179,7 @@ public class GamePanel extends JPanel implements ActionListener{
         if ((x[0] == applePoisonX) && (y[0] == applePoisonY)) {
             AudioInputStream audioInputStream = null;
             try {
-                audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\PeadC\\Desktop\\PJATK\\Semestr 2\\POJ\\Snake\\src\\pl\\edu\\pjwstk\\Jabłko speed.WAV").getAbsoluteFile());
+                audioInputStream = AudioSystem.getAudioInputStream(new File("Jabłko speed.wav").getAbsoluteFile());
                 Clip clip = AudioSystem.getClip();
                 clip.open(audioInputStream);
                 clip.start();
@@ -228,7 +228,7 @@ public class GamePanel extends JPanel implements ActionListener{
         if (!running) {
             AudioInputStream audioInputStream = null;
             try {
-                audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\PeadC\\Desktop\\PJATK\\Semestr 2\\POJ\\Snake\\src\\pl\\edu\\pjwstk\\BUM.WAV").getAbsoluteFile());
+                audioInputStream = AudioSystem.getAudioInputStream(new File("BUM.wav").getAbsoluteFile());
                 Clip clip = AudioSystem.getClip();
                 clip.open(audioInputStream);
                 clip.start();
